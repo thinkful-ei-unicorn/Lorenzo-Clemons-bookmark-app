@@ -1,0 +1,222 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
+.error-content {
+    background-color: #540b0e;
+    color: #e5e5e5;
+    border: solid;
+    /* border-color: black;
+    border-radius: 5px; */
+}
+
+.error-content p {
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    border: solid;
+}
+
+p {
+    margin: 10px;
+}
+
+/* ---  Header Styling  ---*/
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    border: solid;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.pageOptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filterGroup{
+    display: flex;
+    flex-direction: row;
+}
+
+.newBookmark {
+    margin-top: 10px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+fieldset {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+fieldset label {
+    margin: 5px 0 1px 0;
+}
+
+.formButtons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#newBookmark {
+    display: flex;
+    flex-direction: column;
+}
+
+.cancel {
+    padding: 5px;
+}
+
+.submitNew {
+    padding: 5px;
+    border: solid;
+}
+
+input {
+    background-color: white;
+    border-radius: 10px;
+    border: solid;
+}
+
+label[for=filter] {
+    margin: 10px 5px 2px 0;
+}
+
+/* .filter {
+    margin-bottom: 10px;
+
+} */
+
+select {
+    text-align-last: center;
+    border: solid;
+    border-bottom: none;
+    border-radius: 10px;
+}
+
+/*--- Main Styling  ---*/
+main {
+    /* border: solid; */
+    margin: 10px;
+    /* border-radius: 20px; */
+}
+
+hr {
+    width: 75%;
+}
+
+.bookmarkItem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bookmarkItem h2 {
+    margin: auto;
+    width: 80%;
+}
+
+.expanded {
+    margin-top: 10px;
+}
+
+.expand {
+    align-self: center;
+    font-size: 80%
+}
+
+.delete {
+    /* margin-bottom: 10px; */
+    font-size: 80%;
+    align-self: center;
+}
+
+a {
+    margin-top: 10px;
+
+}
+
+main  a:link { color: blue; }
+main  a:link { text-decoration: none; }
+main  a:visited { color: blue; }
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 10px;
+    font-size: 120%;
+}
+
+li {
+    padding: 10px;
+    border: solid;
+    border-bottom: none;
+    border-radius: 20px;
+    width: 50%;
+    background-color: #e0dfd5;
+}
+
+li:last-child {
+    border-bottom: solid;
+}
+
+.bookmarkButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+@media all and (min-width: 700px) {
+    header {
+        margin: 10px 100px 10px 100px;
+        
+    }
+
+    main {
+        margin: 10px 100px 10px 100px;
+        
+    }
+
+    .pageOptions{
+        flex-direction: row;
+    }
+    select {
+        border: solid;
+    }
+
+    fieldset {
+        margin: 0;
+        width: 400px;
+    }
+
+}
