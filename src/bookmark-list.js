@@ -48,7 +48,7 @@ const mainError = function () {
   }
 }
 
-/*================generate page functions================*/
+/*--- generate page functions ---*/
 function generateMain(myStore) {
   const newStore = myStore.map(bookmark =>
     generateBookmark(bookmark))
@@ -122,7 +122,7 @@ function generateNewBookmarkForm() {
             </div>
             <div class="formButtons">
               <button type="submit" class="cancel">Cancel</button>
-              <input type="submit" class="submitNew"/>
+              <input type="submit" class="submitNew" value="submit"/>
             </div>
           </legend>
         </fieldset>

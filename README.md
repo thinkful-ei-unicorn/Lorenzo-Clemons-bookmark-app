@@ -1,3 +1,7 @@
+This app allows you to save and rate your favorite websites so that you can easily reach them, by follwoing the link. 
+
+Link to app: https://thinkful-ei-unicorn.github.io/Lorenzo-Clemons-bookmark-app/dist/
+
 User Stories
 As a user:
 
